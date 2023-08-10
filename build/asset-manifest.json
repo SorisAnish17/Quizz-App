@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bc449194.css",
+    "main.js": "/static/js/main.824398c0.js",
+    "static/js/787.27e7084d.chunk.js": "/static/js/787.27e7084d.chunk.js",
+    "static/media/questioning-concept-with-question-mark.jpg": "/static/media/questioning-concept-with-question-mark.a96855ef7b4ef5e126e9.jpg",
+    "static/media/studio-background-concept-abstract-empty-light-gradient-purple-studio-room-background-product.jpg": "/static/media/studio-background-concept-abstract-empty-light-gradient-purple-studio-room-background-product.7e71d0a594e42c092829.jpg",
+    "static/media/quiz.png": "/static/media/quiz.b4198476eac05c24089a.png",
+    "index.html": "/index.html",
+    "main.bc449194.css.map": "/static/css/main.bc449194.css.map",
+    "main.824398c0.js.map": "/static/js/main.824398c0.js.map",
+    "787.27e7084d.chunk.js.map": "/static/js/787.27e7084d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc449194.css",
+    "static/js/main.824398c0.js"
+  ]
+}
