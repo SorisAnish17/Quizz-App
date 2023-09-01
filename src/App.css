@@ -1,0 +1,156 @@
+body {
+  background-image: url("Images/questioning-concept-with-question-mark.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+#list > * {
+  border: 2px solid rgb(233, 216, 216) !important;
+  /* background-color: rgb(223, 137, 26) !important; */
+  border-radius: 12px !important;
+  color: white !important;
+  min-width: 150px !important;
+  margin: 10px !important;
+  padding: 10px !important;
+}
+#list > *:hover {
+  background-color: rgb(212, 196, 178) !important;
+  color: white !important;
+}
+.main {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  height: 100vh !important;
+  width: 100vw !important;
+}
+
+.box {
+  background-color: black !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 15px !important;
+  width: 950px !important;
+  max-height: 700px !important;
+  border-top-left-radius: 15px !important;
+  border-top-right-radius: 15px !important;
+}
+.box > * {
+  text-align: center !important;
+}
+li:hover {
+  cursor: pointer;
+}
+li.selected {
+  background-color: rgb(113, 231, 113) !important;
+  color: black !important;
+}
+#frame {
+  animation: slide 2s;
+  transition: 1s;
+}
+@keyframes slide {
+  0% {
+    transform: translateY(-100%);
+    transition: 1s;
+  }
+  100% {
+    transform: translateY(40%);
+    transition: 1s;
+  }
+}
+.hero {
+  /* background-image: url("Images/studio-background-concept-abstract-empty-light-gradient-purple-studio-room-background-product.jpg") !important; */
+  background-position: center !important;
+  /* background-color: black !important; */
+  background-size: cover !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  display: flex !important;
+  justify-content: center !important;
+  text-align: center;
+}
+.main-content {
+  margin-top: 55px;
+}
+#sub-content {
+  background-color: black !important;
+  height: 50vh !important;
+}
+#questionText {
+  color: rgb(31, 239, 201);
+}
+.register {
+  text-align: center;
+}
+.btn-none {
+  visibility: hidden;
+}
+.btn-display {
+  visibility: visible;
+}
+#result {
+  min-width: 500px !important;
+}
+.sub-content {
+  height: 100vh !important;
+  width: 100vw !important;
+}
+.question-content {
+  width: 500px !important;
+  height: 250px !important;
+  background-color: rgb(227, 225, 232) !important;
+  padding: 25px !important;
+  border-radius: 25px;
+  font-style: italic;
+  color: black !important;
+  box-shadow: 2px 2px rgb(241, 236, 236);
+}
+.progress-bar {
+  width: 500px !important;
+  height: 200px !important;
+  background-color: rgb(248, 241, 238) !important;
+  border-radius: 25px;
+  font-style: italic;
+  box-shadow: 2px 2px black;
+}
+@media screen and (max-width: 670px) {
+  .box-content {
+    width: 350px !important;
+    height: 350px !important;
+    padding: 25px !important;
+  }
+  #form {
+    width: 400px !important;
+  }
+  #login {
+    width: 400px !important;
+  }
+  .box {
+    width: 400px !important;
+    margin-top: 15px !important;
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+  }
+  #frame {
+    width: 400px !important;
+  }
+  #box-end {
+    width: 400px !important;
+  }
+  .sub-content {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .question-content {
+    width: 375px !important;
+    margin: 15px !important;
+  }
+  .progress-bar {
+    width: 375px !important;
+  }
+}
